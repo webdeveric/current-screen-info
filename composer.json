@@ -1,0 +1,17 @@
+{
+  "name": "webdeveric/current-screen-info",
+  "description": "Add debugging info about the current screen to the help tab",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Eric King",
+      "email": "eric@webdeveric.com",
+      "homepage": "http://webdeveric.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.0"
+  }
+}
