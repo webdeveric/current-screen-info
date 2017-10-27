@@ -1,0 +1,34 @@
+.current-screen-info {
+  --border-color: #E5E5E5;
+  --cell-padding: .333rem;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  background: #FFF;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 0 5px -3px rgba(0,0,0,0.333);
+}
+
+.current-screen-info td,
+.current-screen-info th {
+  padding: var(--cell-padding) calc( var(--cell-padding) *2 );
+}
+
+.current-screen-info thead {
+  background: linear-gradient(to bottom, #FFF 0%, #EFEFEF 100%);
+}
+
+.current-screen-info thead th {
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.current-screen-info .boolean {
+  color: #9600CF;
+}
+
+.current-screen-info .empty {
+  color: #C00;
+}
